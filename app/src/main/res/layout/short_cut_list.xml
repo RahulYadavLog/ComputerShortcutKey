@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/cardview_id"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="50dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    cardview:contentPadding="6dp"
+    android:layout_margin="3dp"
+
+    android:focusable="true"
+    cardview:cardCornerRadius="25dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/book_img_id"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/rateus"
+            android:background="#FFFFFF"/>
+        <TextView
+            android:id="@+id/book_title_id"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="Book title"
+            android:textColor="#2d2d2d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

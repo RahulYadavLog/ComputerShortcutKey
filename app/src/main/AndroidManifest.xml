@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.computershortcutkey">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Adobe.ColorCodeActivity"></activity>
+        <activity android:name=".Adobe.PageMakerActivity" />
+        <activity android:name=".Adobe.CorelDrawActivity" />
+        <activity android:name=".Adobe.FlashActivity" />
+        <activity android:name=".Adobe.DreamWeaverActivity" />
+        <activity android:name=".Adobe.IllustratorActivity" />
+        <activity android:name=".Adobe.MacPhotoshopActivity" />
+        <activity android:name=".Adobe.IllustratorMacActivity" />
+        <activity android:name=".Adobe.PhotoshopActivity" />
+        <activity android:name=".Office.MsOutLookActivity" />
+        <activity android:name=".Office.MsPowerPointActivity" />
+        <activity android:name=".Office.MsAccessActivity" />
+        <activity android:name=".Office.MsPaintActivity" />
+        <activity android:name=".Office.MsWordActivity" />
+        <activity android:name=".Office.MsExcelActivity" />
+        <activity android:name=".Office.MsDosActivity" />
+        <activity android:name=".Browser.ExplorerActivity" />
+        <activity android:name=".Browser.FirefoxActivity" />
+        <activity android:name=".Firefox" />
+        <activity android:name=".Browser.ChromeActivity" />
+        <activity android:name=".Shortcut.AsciicodeActivity" />
+        <activity android:name=".Shortcut.ChatActivity" />
+        <activity android:name=".Shortcut.NotePadActivity" />
+        <activity android:name=".Shortcut.TallyActivity" />
+        <activity android:name=".Shortcut.WindowActivity" />
+        <activity android:name=".Shortcut.GeneralBasicMac" />
+        <activity android:name=".Adobe.AdobeActivity" />
+        <activity android:name=".Office.MsofficeActivity" />
+        <activity android:name=".Browser.BrowserActivity" />
+        <activity android:name=".Shortcut.GeneralBasic" />
+        <activity android:name=".Shortcut.ShortcutKeys" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
